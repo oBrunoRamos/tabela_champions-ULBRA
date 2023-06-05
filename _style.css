@@ -1,0 +1,114 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    position: fixed;
+    background-color: rgb(18, 18, 129);
+    color: #fff;
+    height: 3%;
+    width: 140%;
+    margin-top: -05%;
+    margin-left: -1%;
+    padding: 3%;
+}
+body{
+    height: 1500px;
+}
+h1{
+    margin-left: 20%;
+    margin-bottom: -3%;
+}
+/* Tabela de times */
+
+table{/*Configuração da tabela*/
+    margin:  0 auto;
+    width: 60%; /*Tamanho das tabelas em 60% da página*/
+    margin-top: 5%;
+}
+td{
+    text-align: center;
+    border-top: 1px solid #888;
+    border-collapse:initial;
+    padding: 0.5%;
+}
+#nome{ /*Configuração do nome do time*/
+    text-align: left;
+    padding-left: 3%;
+}
+#cl{/*Configuração do cabeçalho da tabela na parte de clubes*/
+    text-align: left;
+    padding-left: 2%;
+}
+.quadrados{ /*Configuração da parte de pontos até saldo de gols, do cabeçalho*/
+    width: 5%;
+}
+.numero{ /*Configuração da área de colocação dos times*/
+    text-align: right;
+    padding-right: 1.5%;
+}
+.logo{/*Configuração do tamanho da tabela no logo*/
+    width: 4%;
+}
+#logo{/*Configuração tamanho do logo*/
+    height: 30px;
+}
+.ult5{/*Configuração de tamanho da tabela das ultimas 5*/
+    width: 3.5%;
+}
+#vit_der{/*Configuração de vitória e derrota das últimas 5*/
+    margin-bottom: -3px;
+}
+
+/*Cor das bordas a esquerda, iindividual para cada time*/
+#napoli{
+    border-left: 4px solid rgb(0, 162, 255);  
+}
+#liverpool{
+    border-left: 4px solid rgb(43, 209, 132);  
+}
+#ajax{
+    border-left: 4px solid rgb(255, 0, 0);  
+}
+#rangers{
+    border-left: 4px solid rgb(255, 255, 255);  
+}
+#porto{
+    border-left: 4px solid rgb(25, 111, 240); 
+}
+#brugge{
+    border-left: 4px solid rgb(20, 6, 155);
+}
+#kusen{
+    border-left: 4px solid rgb(229, 255, 0);
+}
+#madrid{
+    border-left: 4px solid rgb(179, 36, 36); 
+}
+
+/* Tabela de jogadores */
+#h1g{ /* Configuração do h1 da área de gols */
+    margin-left: 30%;
+}
+.gols{ /* configuração da tabela de gols*/
+    width: 40%;
+}
+#gols{ /* configuração do tamanho do cabeçalho da atrea de gols */
+    width: 10%;
+}
+.imagem{ /* Configuração do tamanho da tabela na área onde se enconta a foto do jogador */
+    width: 10%;
+}
+.jogador{ /* Configuração da imagem do jogador na área de gols */
+    width: 100%;
+    border-radius: 100%;
+}
+.nome{ /* Configuração no nome do jogador na área de gols */
+    height: 30px;
+    padding-top: 10px;
+}
+#logo_time_e_nome{ /*Configurações da linha abaixo do nome do jogador, do logo e nome do time que joga*/
+    border: none;
+    padding-top: -2%;
+    padding-left: 3%;
+    text-align: left;
+}
